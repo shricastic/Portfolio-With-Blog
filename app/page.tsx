@@ -18,7 +18,7 @@ export default function Page() {
   };
 
   return (
-    <section className="px-4 py-4 max-w-4xl mx-auto">
+    <section>
       {/* Hero Section */}
       <div className="flex flex-col items-center text-center">
         <a href={socialLinks.twitter} target="_blank" rel="noopener noreferrer">
@@ -39,10 +39,9 @@ export default function Page() {
       </div>
 
       {/* Main Content */}
-      <div className="prose dark:prose-invert text-foreground">
+      <div className="prose dark:prose-invert text-foreground px-4">
         {/* About Section */}
         <section>
-          <h2 className="text-center text-foreground">About Me</h2>
           <p>
             Hello, I'm Shrikrushna. I'm a passionate problem solver fueled by my
             love for computer science, and I thrive on challenges.
