@@ -62,9 +62,9 @@ export default function Page() {
             contact: <h6 className="ml-2">{email}</h6>
             <button onClick={handleCopy} className="">
               {copied ? (
-                <Check className="w-5 h-5" />
+                <Check className="w-4 h-4" />
               ) : (
-                <Copy className="w-5 h-5" />
+                <Copy className="w-4 h-4" />
               )}
             </button>
 
