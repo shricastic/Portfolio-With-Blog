@@ -39,11 +39,11 @@ export default function Page() {
       </div>
 
       {/* Main Content */}
-      <div className="prose dark:prose-invert text-foreground px-4">
+      <div className="prose dark:prose-invert text-foreground px-4 mr-3 ml-3">
         {/* About Section */}
         <section>
           <p>
-            Hello, I'm Shrikrushna. I'm a passionate problem solver fueled by my
+            Hey, I'm Shrikrushna. I'm a passionate problem solver fueled by my
             love for computer science, and I thrive on challenges.
           </p>
           <p>
@@ -58,7 +58,10 @@ export default function Page() {
 
         {/* Contact Section */}
         <section className="mt-10">
-          <div className="flex items-center space-x-3 mt-2 font-mono">
+          <div className="text-center font-thin">
+            <a href="https://drive.google.com/file/d/12GnO1sORPzmPTiGzQcv5dU0_t-LTFPtR/view">peek into my cv</a>
+          </div>
+          <div className="flex items-center space-x-2 mt-2 font-mono justify-center">
             contact: <h6 className="ml-2">{email}</h6>
             <button onClick={handleCopy} className="">
               {copied ? (
